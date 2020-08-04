@@ -15,6 +15,8 @@
 		6A793E6024D9E10F00BD8B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A793E5E24D9E10F00BD8B36 /* LaunchScreen.storyboard */; };
 		6A793E6D24D9E3C300BD8B36 /* Coffee.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A793E6C24D9E3C300BD8B36 /* Coffee.json */; };
 		6A793E7024D9E7D900BD8B36 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A793E6F24D9E7D900BD8B36 /* DataService.swift */; };
+		6A793E7224D9F67B00BD8B36 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A793E7124D9F67B00BD8B36 /* Drinks.swift */; };
+		6A793E7424D9F75500BD8B36 /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A793E7324D9F75500BD8B36 /* DrinkItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		6A793E6124D9E10F00BD8B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A793E6C24D9E3C300BD8B36 /* Coffee.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Coffee.json; sourceTree = "<group>"; };
 		6A793E6F24D9E7D900BD8B36 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		6A793E7124D9F67B00BD8B36 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		6A793E7324D9F75500BD8B36 /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 				6A793E5324D9E10D00BD8B36 /* AppDelegate.swift */,
 				6A793E5524D9E10D00BD8B36 /* SceneDelegate.swift */,
 				6A793E5724D9E10D00BD8B36 /* ContentView.swift */,
+				6A793E7324D9F75500BD8B36 /* DrinkItem.swift */,
 				6A793E5924D9E10F00BD8B36 /* Assets.xcassets */,
 				6A793E5E24D9E10F00BD8B36 /* LaunchScreen.storyboard */,
 				6A793E6124D9E10F00BD8B36 /* Info.plist */,
@@ -93,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				6A793E6F24D9E7D900BD8B36 /* DataService.swift */,
+				6A793E7124D9F67B00BD8B36 /* Drinks.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -170,9 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A793E5424D9E10D00BD8B36 /* AppDelegate.swift in Sources */,
+				6A793E7224D9F67B00BD8B36 /* Drinks.swift in Sources */,
 				6A793E5624D9E10D00BD8B36 /* SceneDelegate.swift in Sources */,
 				6A793E5824D9E10D00BD8B36 /* ContentView.swift in Sources */,
 				6A793E7024D9E7D900BD8B36 /* DataService.swift in Sources */,
+				6A793E7424D9F75500BD8B36 /* DrinkItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
