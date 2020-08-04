@@ -9,6 +9,8 @@
 import Foundation
 
 
+let drinkData:[Drink] = load("coffee.json")
+
 func load<T: Decodable>(_ fileName:String, as type: T.Type = T.self) -> T {
     let data: Data
     

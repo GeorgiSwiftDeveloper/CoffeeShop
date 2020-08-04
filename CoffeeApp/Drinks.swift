@@ -10,11 +10,11 @@ import SwiftUI
 
 
 
-struct Drink: Identifiable, Codable,Hashable {
-    var id: String
+struct Drink: Hashable, Codable,Identifiable {
+    var id: Int
     var name: String
-    var imageNamge: String
-    var category: String
+    var imageName: String
+    var category: Category
     var description: String
     
     
